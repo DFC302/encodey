@@ -126,10 +126,10 @@ def main():
         elif len(sys.argv) < 2:
             single_encode(line)
         # Double encode
-        elif sys.argv[1].lower() == "--double-encode":
+        elif sys.argv[1].lower() == "--double":
             double_encode(line)
         # Single encode
-        elif sys.argv[1].lower() == "--single-encode":
+        elif sys.argv[1].lower() == "--single":
             single_encode(line)
         # If all else fails, do single encode
         else:
